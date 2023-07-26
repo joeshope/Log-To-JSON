@@ -25,7 +25,9 @@ def create_json():
 
 		all_content.append(content)
 
-	return all_content 
+		unique = list({ repr(each): each for each in all_content }.values())
+
+	return unique 
 
 ## Defines import file
 fname = 'import-projects.json'
