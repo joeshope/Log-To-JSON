@@ -13,6 +13,6 @@ How to use:
 - Run pip3 install -r requirements.txt
 - Run using the above argument
 
-example: <pre><code>python3 log_to_json.py --filename="imported-targets.log"</code></pre>
+example: <pre><code>python3 log_to_json_{SCM}.py --filename="imported-targets.log"</code></pre>
 
 Save the import-projects.json file to use with the [Snyk API Import Tool](https://github.com/snyk-tech-services/snyk-api-import)
